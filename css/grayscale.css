@@ -92,6 +92,43 @@ a {
         background: black;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
 
+.myintro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/pexels-lakeForest.jpeg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  .myintro .intro-body-font-black {
+    color: black;
+    display: table-cell;
+    vertical-align: middle; }
+    .myintro .intro-body-font-black .brand-heading {
+      font-size: 40px; }
+    .myintro .intro-body-font-black .intro-text {
+      font-size: 18px; }
+  .myintro .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .myintro .intro-body .brand-heading {
+      font-size: 40px; }
+    .myintro .intro-body .intro-text {
+      font-size: 18px; }
+  @media (min-width: 768px) {
+    .myintro {
+      height: 100%;
+      padding: 0; }
+      .myintro .intro-body-font-black .brand-heading {
+        font-size: 100px; }
+      .myintro .intro-body-font-black .intro-text {
+        font-size: 26px; } }
+
 .intro {
   display: table;
   width: 100%;
